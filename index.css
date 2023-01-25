@@ -71,3 +71,109 @@ nav ul li a{
 .Homepod{
     background-image: url(pod.jpg);
 }
+/* !Box */
+.grid{
+    padding: 10px 15px;
+}
+.grid_1{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.iphone_14_pro,.iphone_14{
+    background-image: url(14pro.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 20px 0;
+}
+.iphone_14_pro h1{
+    font-size: 2rem;
+    color: #fff;
+    margin: 5px 0;
+}
+.iphone_14_pro p{
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.iphone_14_pro span{
+    color:  #b0b0c16f;
+    margin: 20px 0;
+    padding: 6px 8px;
+    background-color: transparent;
+    border: 1px solid  #b0b0c16f;
+    border-radius: 30px;
+}
+.link_{
+    margin: 20px;
+}
+.link_ a{
+    padding: 0 10px;
+    font-size: 1.1rem;
+    color:  rgb(41, 151, 255);
+}
+.iphone_14{
+    background-image: url(14.jpg);
+}
+.iphone_14 h1{
+    font-size: 2rem;
+    color: #000;
+    margin: 5px 0;
+}
+.iphone_14 p{
+    font-size: 1.3rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+.iphone_14 span{
+    color:  #3f3f42c6;
+    margin: 20px 0;
+    padding: 6px 8px;
+    background-color: transparent;
+    border: 1px solid  #3f3f42c6;
+    border-radius: 30px;
+}
+.apple_watch{
+    background-image: url(applewatch.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 20px 0;
+}
+.apple_watch h1,
+.series8 h1{
+    font-size: 2.1rem;
+    color: #fff;
+    padding: 0 20%;
+    line-height: 2.5rem;
+}
+.apple_watch h5{
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0 20%
+}
+.series8{
+    background-image: url(series8.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 20px 0;
+}
+.series8 i{
+    color: #fff;
+}
+.series8 p{
+    color: red;
+    letter-spacing: 1.5px;
+    margin: 10px;
+}
+.series8 span{
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 10px;
+}
