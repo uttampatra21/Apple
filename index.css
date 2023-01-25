@@ -21,9 +21,12 @@ header nav ul{
     gap: 10px;
     justify-content: space-evenly;
 }
+.ham{
+    display: none;
+}
 nav ul li a{
     color:  #f5f5f7;
-    font-size: 12px;
+    font-size: 13px;
 }
 /* !main */
 .nav{
@@ -177,3 +180,19 @@ nav ul li a{
     font-size: 1.2rem;
     margin: 10px;
 }
+
+/* !media */
+@media only screen and (max-width: 900px) {
+    .none{
+        display: none;
+    }
+    .ham{
+        display: block;
+    }
+    nav{
+        padding: 15px 30px
+    }
+    header nav ul{
+        justify-content: space-between;
+    }
+  }
