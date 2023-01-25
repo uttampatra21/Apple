@@ -182,7 +182,7 @@ nav ul li a{
 }
 
 /* !media */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     .none{
         display: none;
     }
@@ -226,6 +226,7 @@ nav ul li a{
         display: flex;
         flex-direction: column;
     }
-    .iphone_14_pro, .iphone_14{
+    .iphone_14_pro, .iphone_14, .apple_watch, .series8{
+        height: 70vh;
     }
   }
