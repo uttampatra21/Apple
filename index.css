@@ -229,4 +229,7 @@ nav ul li a{
     .iphone_14_pro, .iphone_14, .apple_watch, .series8{
         height: 70vh;
     }
+    .series8{
+        padding: 50px
+    }
   }
