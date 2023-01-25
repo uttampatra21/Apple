@@ -30,16 +30,16 @@ nav ul li a{
     text-decoration: none;
 }
 /* !main */
-.nav{
+.navbar_{
     background-color: #1d1d1f;
     text-align: center;
     color: #fff;
     padding: 15px 30px;
 }
-.nav p{
+.navbar_ p{
     font-size: 14px;
 }
-.nav p a{
+.navbar_ p a{
     color: rgb(41, 151, 255);
     text-decoration: none;
 }
